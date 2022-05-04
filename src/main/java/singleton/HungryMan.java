@@ -1,5 +1,10 @@
 package singleton;
 
+//饿汉模式
+//类加载到内存之后，就实例化一个单例，JVM保证线程安全
+
+
+
 public class HungryMan {
     private static final HungryMan INSTANCE = new HungryMan();
 
