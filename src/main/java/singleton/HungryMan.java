@@ -4,6 +4,10 @@ package singleton;
 //类加载到内存之后，就实例化一个单例，JVM保证线程安全
 
 
+/**
+ * @author ZDP
+ * @data 2022/5/4 11:05 下午
+ */
 
 public class HungryMan {
     private static final HungryMan INSTANCE = new HungryMan();
